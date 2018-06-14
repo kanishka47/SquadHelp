@@ -1,0 +1,309 @@
+
+.accordion.accordion-5 .card {
+  border: 0;
+  background-color: transparent; }
+  .accordion.accordion-5 .card .card-header {
+    border: 0;
+    background-color: #f44336;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .accordion.accordion-5 .card .card-header:hover {
+      -webkit-transition: .3s;
+      transition: .3s;
+      background-color: #455a64; }
+    .accordion.accordion-5 .card .card-header .fa {
+      background-color: #fff;
+      border-top-left-radius: 3px; }
+  .accordion.accordion-5 .card .card-body {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px; }
+	.la{
+	   background-image:url('bg1.jpg');
+	   
+	}
+	
+	.cent{
+	   text-align:center;
+	  	   padding-top:20px;
+	}
+	.text1{
+	   color:white;
+	   text-align:center;
+	   padding-top:20px;
+	   
+	   font-family: 'Russo One', sans-serif;
+
+	}
+	
+	.bd {
+   background-color:#37474F;
+  }
+
+  .bottom{
+	   position:fixed;
+	   bottom: 0px;
+	   width:100%;
+
+  }
+  
+  .back{
+	  
+	  display:cover;
+	  
+  }
+  
+  .front{
+	  font-family: 'Black Han Sans', sans-serif;
+	  color:white;
+	  font-size:100px;
+	  margin-top: 100px;
+	  margin-left: 100px;
+	 
+  }
+  
+  .san{
+	  
+	  width:100px;
+	  height:100px;
+	  margin-right:20px;
+	  margin-top:50px;
+  }
+  
+  .teamf{
+	  font-family: 'Berkshire Swash', cursive;
+	  text-align:center;
+	  padding-top:30px;
+	  
+  }
+  
+.notext{
+	 font-family: 'Berkshire Swash', cursive;
+	 font-size:20px;
+}
+
+.backgroundimg{
+	background-image:url('2.jpg');
+}
+
+.note{
+	font-family: 'Sarala', sans-serif;
+	color:white;
+	font-style:bold;
+	font-size:22px;
+}
+
+
+.home{
+	text-align:center;
+	font-family: 'Megrim', cursive;
+	font-size:50px;
+	font-weight:bold;
+	color:black;
+	padding-bottom:15px;
+}
+
+.wid{
+	width:100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+   
+    [class*="front"] {
+     
+	  font-family: 'Black Han Sans', sans-serif;
+	  color:white;
+	  font-size:20px;
+	  margin-top: 100px;
+	  margin-left: 100px;
+	 
+  }
+    }
+
+
+
+.accordion {
+   text-align: center;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    font-family: 'Jua', sans-serif;
+    outline: none;
+    
+    transition: 0.4s;
+     background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+ .accordion:hover {
+    background-color: black;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: black;
+    overflow: hidden;
+    border-color: grey;
+    transition: 0.4s;
+     background-color: rgba(0, 0, 0, 0.7);
+    
+}
+#main {
+    transition: margin-left .5s;
+	padding: 16px;
+}
+.imgage-responsive{display: block;width: auto;height: auto;}
+.row{margin-left: -15px;margin-right: -15px;
+    margin-bottom: 5px;
+}
+.image{
+    width: auto;
+    background-size: cover;
+    height: 40%;
+    width: 40%;
+    padding-bottom: 50px;
+}
+.banner-image{padding-top: 75px;
+    padding-bottom: 50px; 
+    text-align: center; 
+    color: #f8f8f8; width: auto;
+    background: url(img/cb2.jpg) no-repeat center center; 
+    background-size: cover; 
+}
+.banner-image1{padding-top: 75px;
+    padding-bottom: 50px; 
+    text-align: center; 
+    color: #f8f8f8; width: auto;
+    background: url(img/mech1.jpg) no-repeat center center; 
+    background-size: cover; 
+}
+.banner-image2{padding-top: 75px;
+    padding-bottom: 50px; 
+    text-align: center; 
+    color: #f8f8f8; width: auto;
+    background: url(img/pie1.jpg) no-repeat center center; 
+    background-size: cover; 
+}
+.banner-image3{padding-top: 75px;
+    padding-bottom: 50px; 
+    text-align: center; 
+    color: #f8f8f8; width: auto;
+    background: url(img/civil1.jpg) no-repeat center center; 
+    background-size: cover; 
+}
+.banner-image4{padding-top: 75px;
+    padding-bottom: 50px; 
+    text-align: center; 
+    color: #f8f8f8; width: auto;
+    background: url(img/meta1.jpg) no-repeat center center; 
+    background-size: cover; 
+}
+.banner-image5{padding-top: 75px;
+    padding-bottom: 50px; 
+    text-align: center; 
+    color: #f8f8f8; width: auto;
+    background: url(img/ece1.jpg) no-repeat center center; 
+    background-size: cover; 
+}
+.banner-image6{padding-top: 75px;
+    padding-bottom: 50px; 
+    text-align: center; 
+    color: #f8f8f8; width: auto;
+    background: url(img/eee.jpg) no-repeat center center; 
+    background-size: cover; 
+}
+
+.heading{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    padding-bottom: 50px;
+    font-size: 90px;
+}
+.heading1{
+   font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+@media screen and (max-height: 768px) 
+{
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .container {width: auto;}
+    .hh{
+       
+       font-size:25px;
+        }
+.hh1{
+    font-family: 'Bree Serif', serif;
+     padding-bottom: 50px;
+    font-size: 50px;
+    font-size: 28px;
+}
+.abt2{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 30px;
+    color: white;;
+}
+.abt4{font-size: 18px;
+}
+}
+
+
+.hh2{
+    font-size: 23px;
+   font-family: 'Varela Round', sans-serif;
+    
+}
+.inner-banner-image{
+    padding-top: 12%;
+    width:80%;
+    margin:auto;
+}
+.banner-content{ overflow: hidden; 
+    position: relative; 
+    padding-top: 6%;
+    padding-bottom: 6%; 
+    overflow:hidden; 
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+.banner-image7{
+    padding-bottom: 50px; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    color: #f8f8f8;
+    background: url("img/bg.jpg") no-repeat center; 
+    background-size: cover; 
+}
+.abt1{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 70px;
+    color: white;;
+}
+.thumbnail{
+    display: block;width: 100%;
+    padding: 6px;margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 5px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+         -o-transition: border .2s ease-in-out;
+            transition: border .2s ease-in-out;
+
+}
+.row1{margin-left: -15px;margin-right: -15px;
+    margin-bottom: 5px;}
+.caption{text-align: center;padding-bottom: 10px;}
+.abt3{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+
+

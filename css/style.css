@@ -1,0 +1,46 @@
+
+.accordion.accordion-5 .card {
+  border: 0;
+  background-color: transparent; }
+  .accordion.accordion-5 .card .card-header {
+    border: 0;
+    background-color: #f44336;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .accordion.accordion-5 .card .card-header:hover {
+      -webkit-transition: .3s;
+      transition: .3s;
+      background-color: #455a64; }
+    .accordion.accordion-5 .card .card-header .fa {
+      background-color: #fff;
+      border-top-left-radius: 3px; }
+  .accordion.accordion-5 .card .card-body {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px; }
+	.la{
+	   background-image:url('bg1.jpg');
+	   
+	}
+	
+	.cent{
+	   text-align:center;
+	  	   padding-top:20px;
+	}
+	.text1{
+	   color:white;
+	   text-align:center;
+	   padding-top:20px;
+	   
+	   font-family: 'Russo One', sans-serif;
+
+	}
+	
+	.bd {
+   background-color:#37474F;
+  }
+
+  .bottom{
+	   position:fixed;
+	   bottom: 0px;
+
+  }
